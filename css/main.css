@@ -1,0 +1,54 @@
+.sl {
+    font-size: xx-large;
+}
+
+.slcenter {
+    margin-top: 5%;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.r-panel {
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.r-list{
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: xx-large;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #e9ecef;
+}
+
+.bottom-align {
+    font-size: larger;
+    text-align: center;
+}
+
+.box {
+    width: 100%;
+    padding: 10px; /* Adjust padding as needed */
+    border: 1px solid #000; /* Adjust border style as needed */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    margin-bottom: 10px; /* Add some space between boxes */
+ /* Add some space between the bold text and the cumulative text */
+    display: flex;
+    justify-content: space-between; /* This will push the left and right text to the edges */
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    position: relative;
+}
+
